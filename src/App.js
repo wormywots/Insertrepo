@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Post} from './components/post';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-I don't know lol        
+<Post/>  <Post/> <Post/>
 </p>
         <a
           className="App-link"
