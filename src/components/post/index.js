@@ -1,2 +1,2 @@
-export const Post = () => {
-return ( <div>this is a post</div>)}
+export const Post = ({content}) => {
+return   ( <div>{content}</div>)}

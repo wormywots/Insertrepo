@@ -3,12 +3,16 @@ import './App.css';
 import {Post} from './components/post';
 
 function App() {
+  const getPosts = () => {
+    const posts = ["this is a post", "this is another post", "another post"];]
+    return posts.map(post => {return (<Post content={post} />)});
+  }
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-<Post/>  <Post/> <Post/>
+{getPosts()}
 </p>
         <a
           className="App-link"
